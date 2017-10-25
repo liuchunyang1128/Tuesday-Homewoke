@@ -1,0 +1,72 @@
+[v-cloak] {
+    display: none;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:Microsoft YaHei;
+}
+li{
+    list-style:none;
+}
+.bar{
+    background-color:#5c9bb7;
+    border-radius: 2px;
+    width: 580px;
+    padding: 10px;
+    margin: 45px auto 25px;
+    position:relative;
+    text-align:right;
+    line-height: 1;
+}
+
+
+
+
+
+.bar .txt{
+    padding: 5px 10px 5px 30px;
+    width: 500px;
+    height: 30px;
+    position: relative;
+}
+.bar img{
+    width: 30px;
+    height:35px;
+    position: absolute;
+    top:16px;
+    left:48px;
+}
+.txt::-webkit-input-placeholder{
+    font-size: 16px;
+    color: black;
+}
+
+
+ul.list{
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+ul.list li{
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    overflow: hidden;
+}
+
+ul.list li img{
+    width:120px;
+    height:120px;
+    float:left;
+    border:none;
+    object-fit:cover;
+}
+
+ul.list li p{
+    margin-left: 135px;
+    font-weight: bold;
+    color:#6e7a7f;
+}
